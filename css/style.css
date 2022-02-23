@@ -75,7 +75,7 @@ li{
 /***** End general *****/
 /***** navbar *****/
 .navbar{
-    background:var(--white-text);
+    background: var(--white-text);
     padding: 0.8125rem 0;
     position: fixed;
     top: 0;
@@ -103,5 +103,23 @@ li{
 }
 .navLogo{
     display: none;
+}
+@media only screen and (min-width:1024px) {
+    .navLinks{
+        display: block;
+        display: flex;
+    }
+    .navLink{
+        padding: 1.875rem 0.9375rem;
+    }
+    .navLogo{
+        display: block;
+    }
+    .navToggle{
+        display: none;
+    }
+    .navbar .flexContainer {
+        justify-content: space-between;
+    }
 }
 /***** End navbar *****/
