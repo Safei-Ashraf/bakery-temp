@@ -73,3 +73,44 @@ li{
     -o-border-radius: 50%;
 }
 /***** End general *****/
+/***** hero *****/
+.hero{
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,.3), 
+        rgba(0,0,0,.3)),url(../assets/images/hero-img.jpeg) no-repeat 50%;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hero .flexContainer{
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.heroHeader{
+    color: var(--white-text);
+    text-align: center;
+}
+.heroHeader h1{
+    font-size: 4.375rem;
+    margin-bottom: 1.875rem;
+}
+.heroHeader h4, .heroHeader p{
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    color: #ccc;
+    line-height: 1.86em;
+}
+.active{
+    border: none;
+    background: var(--primary-bg);
+    margin-right: 0.625rem;
+}
+.disabled{
+    border: 2px solid var(--white-text);
+    background: none;
+}
+/***** End hero *****/
