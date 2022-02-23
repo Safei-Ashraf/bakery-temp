@@ -112,14 +112,21 @@ li{
     .navLink{
         padding: 1.875rem 0.9375rem;
     }
+    .navLink:first-child{
+        border-top: 2px solid var(--primary-bg);
+    }
     .navLogo{
         display: block;
+        width: 9.375rem;
     }
     .navToggle{
         display: none;
     }
     .navbar .flexContainer {
         justify-content: space-between;
+    }
+    .navbar{
+        padding: 0;
     }
 }
 /***** End navbar *****/
