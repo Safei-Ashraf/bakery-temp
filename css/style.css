@@ -145,6 +145,7 @@ li{
     background-color:var(--white-text);
     position: absolute;
     animation: example 2s linear  infinite alternate;
+    transform: translate(-50%, -50%);
 }
 @keyframes example {
     25%  { top:10px;}
