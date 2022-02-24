@@ -124,16 +124,20 @@ li{
 }
 .scroll{
     display: block;
-    width: 32px;
-    height: 50px;
+    width: 2rem;
+    height: 3.125rem;
     margin: auto;
     border: 2px solid hsla(0,0%,100%,.7);
-    border-radius: 24px;
+    border-radius:24px;
     position: relative;
     bottom: 5%;
     overflow: hidden;
     cursor: pointer;
     background: none;
+    -webkit-border-radius:24px;
+    -moz-border-radius:24px;
+    -ms-border-radius:24px;
+    -o-border-radius:24px;
 }
 .scroll a{
     width: 5px;
