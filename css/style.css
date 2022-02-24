@@ -90,5 +90,21 @@ li{
     margin-bottom: 1.25rem;
     line-height: 1.86em;;
 }
-.about
+.aboutImg{
+    margin-bottom: 0.625rem;
+}
+@media only screen and (min-width:1024px) {
+    .about .flexContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .aboutImg{
+        width: 50%;
+    }
+    .aboutHeader{
+        width: 50%;
+        padding: 15px 20px 0;
+    }
+}
 /***** End about *****/
