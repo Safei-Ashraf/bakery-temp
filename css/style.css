@@ -152,4 +152,20 @@ li{
     75%  { top:30px;}
     100% { top:40px;}
 }
+.setting{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 25%;
+    padding: 4px 0 2px;
+    background-color: var(--white-text);
+    border-radius: 5px 0 0 5px;
+    font-size: large;
+    box-shadow: 0 0 8px 1px #979797;
+    z-index: 999;
+}
+.setting i{
+    padding: 7px;
+}
 /***** End hero *****/
