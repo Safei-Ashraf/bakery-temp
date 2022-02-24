@@ -169,4 +169,10 @@ li{
 .setting i{
     padding: 7px;
 }
+@media only screen and (min-width:1024px) {
+    .hero .flexContainer{
+        transform: translateY(26%);
+    }
+
+}
 /***** End hero *****/
