@@ -73,3 +73,8 @@ li{
     -o-border-radius: 50%;
 }
 /***** End general *****/
+/***** location *****/
+.location{
+    background: #f8f8f8;
+}
+/***** End location *****/
