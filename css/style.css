@@ -113,4 +113,13 @@ li{
     border: 2px solid var(--white-text);
     background: none;
 }
+.active:hover, .disabled:hover{
+    background-color: var(--white-text);
+    color: var(--dark-text);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
 /***** End hero *****/
