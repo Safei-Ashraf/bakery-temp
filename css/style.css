@@ -73,3 +73,21 @@ li{
     -o-border-radius: 50%;
 }
 /***** End general *****/
+/***** about *****/
+.about .flexContainer{
+    justify-content: center;
+}
+.aboutList li{
+    color: var(--gray-text);
+    display: flex;
+    margin: 0.625rem 0;
+}
+.about .icon{
+    text-align: center;
+}
+.about .titleDesc{
+    text-align: center;
+    margin-bottom: 1.25rem;
+    line-height: 1.86em;;
+}
+/***** End about *****/
