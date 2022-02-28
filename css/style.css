@@ -237,9 +237,6 @@ footer{
     background: #403d38;
     color: #969696;
 }
-.footerLinks{
-    display: flex;
-}
 .footerLinks .paddingY{
     padding: 1.875rem 0;
 }
@@ -251,18 +248,6 @@ footer{
 }
 .footerText{
     font-size: 1.125rem;
-}
-.about{
-    width: 25%;
-}
-.special{
-    width: 25%;
-}
-.hours{
-    width: 25%;
-}
-.details{
-    width: 25%;
 }
 .copywrite{
     background: var(--footer-bg);
@@ -310,5 +295,22 @@ footer{
 .socialIcon#twitter:hover{
     background:#1DA1F2;
     color: var(--white-text);
+}
+@media only screen and (min-width:1024px) {
+    .footerLinks{
+        display: flex;
+    }
+    .about{
+        width: 25%;
+    }
+    .special{
+        width: 25%;
+    }
+    .hours{
+        width: 25%;
+    }
+    .details{
+        width: 25%;
+    }
 }
 /***** End footer *****/
