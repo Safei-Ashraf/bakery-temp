@@ -248,6 +248,8 @@ footer{
 }
 .footerText{
     font-size: 1.125rem;
+    line-height: 1.86em;
+    margin-bottom: 1.25rem;
 }
 .copywrite{
     background: var(--footer-bg);
