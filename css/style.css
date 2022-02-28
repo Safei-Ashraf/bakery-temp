@@ -232,3 +232,18 @@ li{
     transform: translateY(26%);
 }
 /***** End hero *****/
+/***** contact *****/
+.contact{
+    background: #f8f8f8;
+}
+.contact .icon{
+    background: var(--primary-bg);
+    color: var(--white-text);
+    border: none;
+}
+.contactList li, .contact p{
+    line-height: 1.86em;
+    margin-bottom: 1.25rem;
+    color: var(--gray-text);
+}
+/***** End contact *****/
