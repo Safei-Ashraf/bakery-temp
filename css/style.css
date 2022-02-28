@@ -251,4 +251,33 @@ li{
     align-items: baseline;
     padding: 1.25rem 0 3.125rem;
 }
+.socialIcon{
+    background: #484540;
+    color: #8c8a86;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.socialIcon#facebook:hover{
+    background:#3b5998
+    ;
+    color: var(--white-text);
+}
+.socialIcon#google:hover{
+    background:#DB4437
+    ;
+    color: var(--white-text);
+}
+.socialIcon#linkedin:hover{
+    background:#0e76a8;
+    color: var(--white-text);
+}
+.socialIcon#twitter:hover{
+    background:#1DA1F2;
+    color: var(--white-text);
+}
 /***** End footer *****/
