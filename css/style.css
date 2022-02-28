@@ -80,6 +80,7 @@ li{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 .navbar .flexContainer{
     justify-content: flex-end;
@@ -227,11 +228,8 @@ li{
 .setting i{
     padding: 7px;
 }
-@media only screen and (min-width:1024px) {
-    .hero .flexContainer{
-        transform: translateY(26%);
-    }
-
+.hero .flexContainer{
+    transform: translateY(26%);
 }
 /***** End hero *****/
 /***** about *****/
@@ -242,6 +240,7 @@ li{
     color: var(--gray-text);
     display: flex;
     margin: 0.625rem 0;
+    align-items: baseline;
 }
 .about .icon{
     text-align: center;
@@ -265,7 +264,7 @@ li{
     }
     .aboutHeader{
         width: 50%;
-        padding: 0.9375rem 1.25rem 0;
+        padding: 0.9375rem 2.25rem 0;
     }
 }
 /***** End about *****/
