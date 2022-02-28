@@ -254,6 +254,11 @@ li{
 @media only screen and (min-width:1024px) {
     .bakingItems{
         display: flex;
+        justify-content: space-around;
+    }
+    .bakingItem{
+        width: 30.5%;
+        padding: 0.3125rem 0.625rem;
     }
 }
 /***** End baking *****/
