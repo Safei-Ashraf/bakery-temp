@@ -233,6 +233,37 @@ li{
 }
 /***** End hero *****/
 /***** footer *****/
+footer{
+    background: #403d38;
+    color: #969696;
+}
+.footerLinks{
+    display: flex;
+}
+.footerLinks .paddingY{
+    padding: 1.875rem 0;
+}
+.footerTitle{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: #fff;
+    font-weight: 300;
+}
+.footerText{
+    font-size: 1.125rem;
+}
+.about{
+    width: 25%;
+}
+.special{
+    width: 25%;
+}
+.hours{
+    width: 25%;
+}
+.details{
+    width: 25%;
+}
 .copywrite{
     background: var(--footer-bg);
     display: flex;
