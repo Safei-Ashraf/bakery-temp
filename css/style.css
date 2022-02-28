@@ -246,4 +246,19 @@ li{
     margin-bottom: 1.25rem;
     color: var(--gray-text);
 }
+.mapouter{
+    width: 100%;
+    display: block;
+}
+@media only screen and (min-width:1024px) {
+    .contactInfo{
+        width: 50%;
+        padding: 0.9375rem 1.25rem 0;
+        margin-top: 50px;
+    }
+    .contactMap{
+        width: 50%;
+        padding: 0.9375rem 1.25rem 0;
+    }
+}
 /***** End contact *****/
