@@ -236,6 +236,9 @@ li{
 .contact{
     background: #f8f8f8;
 }
+.contact .titleDesc{
+    text-align: center;
+}
 .contact .icon{
     background: var(--primary-bg);
     color: var(--white-text);
