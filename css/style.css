@@ -314,15 +314,19 @@ footer{
     }
     .about{
         width: 25%;
+        padding: 0.4375rem;
     }
     .special{
         width: 25%;
+        padding: 0.4375rem;
     }
     .hours{
         width: 25%;
+        padding: 0.4375rem;
     }
     .details{
         width: 25%;
+        padding: 0.4375rem;
     }
 }
 /***** End footer *****/
