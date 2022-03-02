@@ -229,8 +229,12 @@ li{
 }
 @media only screen and (min-width:1024px) {
     .hero .flexContainer{
-        transform: translateY(26%);
-    }
+        transform: translateY(20%);
+        -webkit-transform: translateY(20%);
+        -moz-transform: translateY(20%);
+        -ms-transform: translateY(20%);
+        -o-transform: translateY(20%);
+}
     .hero{
         height: 100vh;
     }
