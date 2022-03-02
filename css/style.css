@@ -134,7 +134,7 @@ li{
 /***** End navbar *****/
 /***** hero *****/
 .hero{
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(
         rgba(0,0,0,.3), 
         rgba(0,0,0,.3)),url(../assets/images/hero-img.jpeg) no-repeat 50%;
@@ -230,6 +230,11 @@ li{
 }
 .hero .flexContainer{
     transform: translateY(26%);
+}
+@media only screen and (min-width:1024px) {
+    .hero{
+        height: 100vh;
+    }
 }
 /***** End hero *****/
 /***** about *****/
