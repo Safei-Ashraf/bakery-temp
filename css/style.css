@@ -232,6 +232,77 @@ li{
     transform: translateY(26%);
 }
 /***** End hero *****/
+/***** about *****/
+.about .flexContainer{
+    justify-content: center;
+}
+.aboutList li{
+    color: var(--gray-text);
+    display: flex;
+    margin: 0.625rem 0;
+    align-items: baseline;
+}
+.about .icon{
+    text-align: center;
+}
+.about .titleDesc{
+    text-align: center;
+    margin-bottom: 1.25rem;
+    line-height: 1.86em;;
+}
+.aboutImg{
+    margin-bottom: 0.625rem;
+}
+@media only screen and (min-width:1024px) {
+    .about .flexContainer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .aboutImg{
+        width: 50%;
+    }
+    .aboutHeader{
+        width: 50%;
+        padding: 0.9375rem 2.25rem 0;
+    }
+}
+/***** End about *****/
+/***** location *****/
+.location{
+    background: #f8f8f8;
+}
+/***** End location *****/
+/***** baking *****/
+.baking .flexContainer{
+    justify-content: center;
+    text-align: center;
+}
+.bakingItems{
+    margin-top: 1.25rem;
+}
+.bakingItem{
+    padding: 0.625rem;
+}
+.bakingTitle{
+    margin: 0.625rem 0;
+}
+.bakingItem figcaption{
+    color: var(--gray-text);
+    line-height: 1.86em;
+    margin-bottom: 1.25rem;
+}
+@media only screen and (min-width:1024px) {
+    .bakingItems{
+        display: flex;
+        justify-content: space-around;
+    }
+    .bakingItem{
+        width: 30.5%;
+        padding: 0.3125rem 0.625rem;
+    }
+}
+/***** End baking *****/
 /***** contact *****/
 .contact{
     background: #f8f8f8;
@@ -268,3 +339,4 @@ iframe#gmap_canvas {
     }
 }
 /***** End contact *****/
+
