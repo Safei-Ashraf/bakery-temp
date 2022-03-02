@@ -324,8 +324,15 @@ li{
     margin-bottom: 1.25rem;
     color: var(--gray-text);
 }
+.contactMap{
+	width:80%;
+}
 iframe#gmap_canvas {
     width: 100%;
+    height: 50vh;
+}
+.contact .flexContainer{
+	justify-content: center;
 }
 @media only screen and (min-width:1024px) {
     .contactInfo{
