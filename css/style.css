@@ -339,7 +339,7 @@ iframe#gmap_canvas {
     }
     iframe#gmap_canvas {
         width: 100%;
-        height: 453px;
+        height: 50vh;
     }
 }
 /***** End contact *****/
