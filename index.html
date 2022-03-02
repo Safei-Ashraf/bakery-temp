@@ -16,102 +16,170 @@
 </head>
 
 <body>
-    <!-- ========== Start navbar ========== -->
-    <header>
-        <nav class="navbar">
-            <div class="container flexContainer">
-                <header class="navHeader">
-                    <button class="navToggle">
-                        <i class="fa-solid fa-bars"></i>
+        <!-- ========== Start navbar ========== -->
+        <header>
+            <nav class="navbar">
+                <div class="container flexContainer">
+                    <header class="navHeader">
+                        <button class="navToggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <a href="#" class="navLogo">
+                            <img class="logoImg" src="./assets/images/logo.png" alt="bakery logo">
+                        </a>
+                    </header>
+                    <ul class="navLinks">
+                        <li class="navLink">
+                            <a href="#home">home</a>
+                        </li>
+                        <li class="navLink">
+                            <a href="#about">about</a>
+                        </li>
+                        <li class="navLink">
+                            <a href="#offers">our offers</a>
+                        </li>
+                        <li class="navLink">
+                            <a href="#gallery">gallery</a>
+                        </li>
+                        <li class="navLink">
+                            <a href="#blog">blog</a>
+                        </li>
+                        <li class="navLink">
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ========== End navbar ========== -->
+        <main>
+            <section class="hero paddingY">
+                <div class="conatiner flexContainer">
+                    <header class="heroHeader">
+                        <p>Welcome to</p>
+                        <h1>Family Bakery</h1>
+                        <p>
+                            We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles
+                            area.
+                        </p>
+                    </header>
+                    <div class="setting">
+                        <i class="fa-solid fa-gears"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="heroAction">
+                        <button class="btn active">learn more</button>
+                        <button class="btn disabled">contact us</button>
+                    </div>
+                    <button class="scroll">
+                        <a href="#about"></a>
                     </button>
-                    <a href="#" class="navLogo">
-                        <img class="logoImg" src="./assets/images/logo.png" alt="bakery logo">
-                    </a>
-                </header>
-                <ul class="navLinks">
-                    <li class="navLink">
-                        <a href="#home">home</a>
-                    </li>
-                    <li class="navLink">
-                        <a href="#about">about</a>
-                    </li>
-                    <li class="navLink">
-                        <a href="#offers">our offers</a>
-                    </li>
-                    <li class="navLink">
-                        <a href="#gallery">gallery</a>
-                    </li>
-                    <li class="navLink">
-                        <a href="#blog">blog</a>
-                    </li>
-                    <li class="navLink">
-                        <a href="#contact">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <!-- ========== End navbar ========== -->
-    <main>
-        <section class="hero paddingY">
-            <div class="conatiner flexContainer">
-                <header class="heroHeader">
-                    <p>Welcome to</p>
-                    <h1>Family Bakery</h1>
-                    <p>
-                        We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.
-                    </p>
-                </header>
-                <div class="setting">
-                    <i class="fa-solid fa-gears"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <div class="heroAction">
-                    <button class="btn active">learn more</button>
-                    <button class="btn disabled">contact us</button>
+            </section>
+            <!-- ========== Start about ========== -->
+            <section class="about paddingY">
+                <div class="container flexContainer">
+                    <figure class="aboutImg">
+                        <img src="./assets/images/about1.jpeg" alt="fresh baked bread">
+                    </figure>
+                    <header class="aboutHeader">
+                        <h2 class="title">Who We Are?</h2>
+                        <p class="titleDesc">
+                            We have been operating for over 30 years and are Members of The Federation of Master
+                            Builders. We work on
+                            projects big and small from small residential extensions to full house. We are so happy
+                            with this theme.
+                            Everyday it make our lives better.
+                        </p>
+                        <ul class="aboutList">
+                            <li>
+                                <i class="icon fa-solid fa-check"></i>
+                                we care about environment.
+                            </li>
+                            <li>
+                                <i class="icon fa-solid fa-users"></i>
+                                we are trusted by hundreds of clients.
+                            </li>
+                            <li>
+                                <i class="icon fa-solid fa-heart"></i>
+                                social media loves us!
+                            </li>
+                            <li>
+                                <i class="icon fa-solid fa-check"></i>
+                                this list is super easy to create.
+                            </li>
+                        </ul>
+                    </header>
                 </div>
-                <button class="scroll">
-                    <a href="#about"></a>
-                </button>
-            </div>
-        </section>
-        <!-- ========== Start baking ========== -->
-        <section class="baking paddingY">
-            <div class="container flexContainer">
-                <header class="bakingHeader">
-                    <h2 class="title">Our Baking</h2>
-                    <p class="titleDesc">Learn more about them. We have worked truly hard to make them perfect for every
-                        use.
-                    </p>
-                </header>
-                <div class="bakingItems">
-                    <figure class="bakingItem">
-                        <img src="./assets/images/baking1.jpeg" alt="" class="bakingImg">
-                        <h4 class="bakingTitle">Superior Breads</h4>
-                        <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
-                            mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
-                        </figcaption>
-                    </figure>
-                    <figure class="bakingItem">
-                        <img src="./assets/images/baking2.jpeg" alt="" class="bakingImg">
-                        <h4 class="bakingTitle">Bagels</h4>
-                        <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
-                            mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
-                        </figcaption>
-                    </figure>
-                    <figure class="bakingItem">
-                        <img src="./assets/images/baking3.jpeg" alt="" class="bakingImg">
-                        <h4 class="bakingTitle">Cookies</h4>
-                        <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper
-                            mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
-                        </figcaption>
+            </section>
+            <!-- ========== End about ========== -->
+            <!-- ========== Start location ========== -->
+            <section class="location about paddingY">
+                <div class="container flexContainer">
+                    <header class="aboutHeader">
+                        <h2 class="title">Our Location</h2>
+                        <p class="titleDesc">
+                            We have been operating for over 30 years and are Members of The Federation of Master
+                            Builders.
+                            We
+                            work on projects big and small from small residential extensions to full house. We are
+                            so happy
+                            with
+                            this theme. Everyday it make our lives better.
+                        </p>
+                        <p class="titleDesc">
+                            Story on projects big and small from small residential extensions to full house. We are
+                            so happy
+                            with this theme. Everyday it make our lives better.
+                        </p>
+                    </header>
+                    <figure class="aboutImg">
+                        <img src="./assets/images/about2.jpeg" alt="backery">
                     </figure>
                 </div>
-            </div>
-        </section>
-        <!-- ========== End baking ========== -->
-    </main>
-    <footer></footer>
+            </section>
+            <!-- ========== End location ========== -->
+            <!-- ========== Start baking ========== -->
+            <section class="baking paddingY">
+                <div class="container flexContainer">
+                    <header class="bakingHeader">
+                        <h2 class="title">Our Baking</h2>
+                        <p class="titleDesc">Learn more about them. We have worked truly hard to make them perfect for
+                            every
+                            use.
+                        </p>
+                    </header>
+                    <div class="bakingItems">
+                        <figure class="bakingItem">
+                            <img src="./assets/images/baking1.jpeg" alt="" class="bakingImg">
+                            <h4 class="bakingTitle">Superior Breads</h4>
+                            <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
+                                semper
+                                mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
+                            </figcaption>
+                        </figure>
+                        <figure class="bakingItem">
+                            <img src="./assets/images/baking2.jpeg" alt="" class="bakingImg">
+                            <h4 class="bakingTitle">Bagels</h4>
+                            <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
+                                semper
+                                mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
+                            </figcaption>
+                        </figure>
+                        <figure class="bakingItem">
+                            <img src="./assets/images/baking3.jpeg" alt="" class="bakingImg">
+                            <h4 class="bakingTitle">Cookies</h4>
+                            <figcaption>Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at
+                                semper
+                                mauris velit a velit. Phasellus commodo turpis et lacinia posuere.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!-- ========== End baking ========== -->
+        </main>
+        <footer></footer>
 </body>
 
 </html>
